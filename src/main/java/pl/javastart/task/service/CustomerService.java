@@ -1,6 +1,5 @@
 package pl.javastart.task.service;
 
-
 public class CustomerService {
     public void payoutOffer(Offer offer) {
         if (offer.valid) {
