@@ -1,8 +1,8 @@
 package pl.javastart.task;
 
-import pl.javastart.task.model.Offer;
 import pl.javastart.task.app.SalesRepresentative;
 import pl.javastart.task.app.CustomerService;
+import pl.javastart.task.app.Offer;
 
 public class Main {
     public static void main(String[] args) {

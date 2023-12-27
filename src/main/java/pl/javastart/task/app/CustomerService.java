@@ -1,7 +1,5 @@
 package pl.javastart.task.app;
 
-import pl.javastart.task.model.Offer;
-
 public class CustomerService {
     public void payoutOffer(Offer offer) {
         if (offer.isValid()) {
