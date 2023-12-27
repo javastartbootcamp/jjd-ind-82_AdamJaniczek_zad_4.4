@@ -1,5 +1,6 @@
-package pl.javastart.task.service;
+package pl.javastart.task.app;
 
+import pl.javastart.task.model.Offer;
 public class SalesRepresentative {
 
     private Config config;
@@ -11,11 +12,10 @@ public class SalesRepresentative {
     public Offer createLoanOffer(int requestedAmount, int earnings) {
         Offer offer = new Offer();
         if (earnings >= config.minRequiredEarnings) {
-            offer.percentage = config.percentage;
-            offer.valid = true;
-            offer.value = requestedAmount;
+            offer.setPercentage(config.percentage);
+            offer.setValid(true);
+            offer.setValue(requestedAmount);
         }
         return offer;
     }
-
 }
