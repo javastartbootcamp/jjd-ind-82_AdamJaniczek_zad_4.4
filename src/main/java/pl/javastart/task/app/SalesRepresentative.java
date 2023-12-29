@@ -1,5 +1,6 @@
 package pl.javastart.task.app;
 
+import pl.javastart.task.model.Offer;
 public class SalesRepresentative {
 
     private Config config;
