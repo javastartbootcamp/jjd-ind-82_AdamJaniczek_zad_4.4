@@ -1,6 +1,6 @@
-package pl.javastart.task;
+package pl.javastart.task.app;
 
-public class Config {
+class Config {
 
     public int minRequiredEarnings = 2000;
     public double percentage = 0.03;
